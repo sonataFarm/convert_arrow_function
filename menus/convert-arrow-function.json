@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle convert-arrow-function",
+        "command": "convert-arrow-function:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "convert-arrow-function",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "convert-arrow-function:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

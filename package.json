@@ -1,0 +1,18 @@
+{
+  "name": "convert-arrow-function",
+  "main": "./lib/convert-arrow-function",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "convert-arrow-function:toggle"
+  },
+  "repository": "https://github.com/atom/convert-arrow-function",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "balanced-match": "^1.0.0"
+  }
+}
